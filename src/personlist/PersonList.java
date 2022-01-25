@@ -16,7 +16,7 @@ public class PersonList {
            p[i].setPersonName(input.nextLine());
           
            System.out.println("insert person lastname");
-           p[i].setPersonLastName(input.nextLine());
+           p[i].setLastName(input.nextLine());
     }
     }
     }
