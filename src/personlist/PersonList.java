@@ -12,9 +12,11 @@ public class PersonList {
         
         Person[] p=new Person[3];
         for (int i=0;i>p.length;i++){
-            System.out.println("insert person");
-        
-            p[i].setPersonName(input.nextLine());
+           System.out.println("insert person");
+           p[i].setPersonName(input.nextLine());
+          
+           System.out.println("insert person lastname");
+           p[i].setPersonLastName(input.nextLine());
     }
     }
     }
